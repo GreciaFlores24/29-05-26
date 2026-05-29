@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>M72 Dashboard</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white p-8">
+
+  <h1 class="text-4xl text-center text-red-600 font-bold mb-10">
+    M72 World Tour Dashboard
+  </h1>
+
+  <!-- ================================= -->
+  <!-- ETAPA 1 -->
+  <!-- ================================= -->
+
+  <section class="bg-gray-900 p-6 rounded mb-10">
+
+    <h2 class="text-2xl text-red-500 mb-5">
+      🎟️ Taquilla VIP
+    </h2>
+
+    <form id="formCompra" class="space-y-5">
+
+      <div>
+
+        <label>
+          Nombre en el Gafete VIP
+        </label>
+
+        <input
+          type="text"
+          id="nombre"
+          class="w-full p-3 rounded bg-gray-800"
+        >
+
+        <small id="contador">
+          0/20 caracteres
+        </small>
+
+      </div>
+
+      <div>
+
+        <label>
+          Zona
+        </label>
+
+        <select
+          id="zona"
+          class="w-full p-3 rounded bg-gray-800"
+        >
+          <option value="100">
+            General
+          </option>
+
+          <option value="300">
+            Gradas
+          </option>
+
+          <option value="500">
+            Snake Pit VIP
+          </option>
+
+        </select>
+
+      </div>
+
+      <div>
+
+        Precio Total:
+        <span id="precio">$100</span>
+
+      </div>
+
+      <button
+        type="submit"
+        class="bg-red-600 w-full p-3 rounded"
+      >
+        CONFIRMAR COMPRA
+      </button>
+
+    </form>
+
+  </section>
+
+
+  <!-- ================================= -->
+  <!-- ETAPA 2 -->
+  <!-- ================================= -->
+
+  <section class="bg-gray-900 p-6 rounded mb-10">
+
+    <h2 class="text-2xl text-yellow-400 mb-5">
+      🎛️ Soundboard
+    </h2>
+
+    <div class="grid grid-cols-2 gap-4 mb-5">
+
+      <button class="efecto bg-gray-700 p-5 rounded">
+        Riff de Guitarra
+      </button>
+
+      <button class="efecto bg-gray-700 p-5 rounded">
+        Doble Bombo
+      </button>
+
+      <button class="efecto bg-gray-700 p-5 rounded">
+        Grito del Público
+      </button>
+
+      <button class="efecto bg-gray-700 p-5 rounded">
+        Fuego
+      </button>
+
+    </div>
+
+    <div
+      id="pantalla"
+      class="bg-black border border-green-500 p-4 rounded mb-5"
+    >
+      Esperando efecto...
+    </div>
+
+    <input
+      type="range"
+      id="distorsion"
+      min="0"
+      max="100"
+      value="0"
+      class="w-full"
+    >
+
+    <p id="nivel">
+      Nivel de Distorsión: 0%
+    </p>
+
+  </section>
+
+
+  <!-- ================================= -->
+  <!-- ETAPA 3 -->
+  <!-- ================================= -->
+
+  <section class="bg-gray-900 p-6 rounded">
+
+    <h2 class="text-2xl text-green-400 mb-5">
+      📋 Inventario
+    </h2>
+
+    <input
+      type="text"
+      id="busqueda"
+      placeholder="Buscar equipo..."
+      class="w-full p-3 rounded bg-gray-800 mb-5"
+    >
+
+    <ul class="space-y-2">
+
+      <li class="equipo cursor-pointer">
+        Amplificador Marshall
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Batería Tama
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Bajo ESP
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Cables XLR
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Pirotecnia
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Púas
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Micrófonos
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Luces LED
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Pedales
+      </li>
+
+      <li class="equipo cursor-pointer">
+        Consola
+      </li>
+
+    </ul>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
