@@ -1,0 +1,20 @@
+# 📝 Registro de Ejercicios - Identificación del Alumno
+
+## 👤 Datos del Alumno
+| Campo | Información |
+|-------|-------------|
+| Nombre completo | [Grecia Daniela Flores Estrada] |
+| Número de control | [24308051220400] |
+| Grupo | [G] |
+| Grado | [4] |
+| Escuela | [centro de bachillerato tecnológico y de servicios 122] |
+| Especialidad | [Programacion] |
+
+## 📘 Información del Ejercicio
+- Título del ejercicio: [MASTER OF PUPPETS: EL DASHBOARD DEL TOUR MUNDIAL]
+- Descripción:  
+  [¡Atención, ingenieros de la gira! La banda está por arrancar el M72 World Tour y la gerencia (representada por el baterista, Lars Ulrich) está furiosa. El software anterior tenía demasiada latencia y no respondía a tiempo a las acciones del usuario.
+
+Para este proyecto, ustedes serán los "Master of Puppets", tirando de los hilos del DOM usando JavaScript. Van a construir un Dashboard Interactivo Completo compuesto por tres módulos esenciales para la gira. Aplicaremos metodologías de Aprendizaje Basado en Proyectos, donde cada línea de código debe reaccionar en tiempo real al usuario mediante los eventos input, change y click.]
+
+## ❓ Preguntas y Dudas
